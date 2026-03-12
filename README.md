@@ -29,7 +29,7 @@ from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-data = pd.read_csv("spam (2).csv", encoding='latin-1')
+data = pd.read_csv("spam.csv", encoding='latin-1')
 
 data = data[['v1','v2']]
 data.columns = ['label','message']
